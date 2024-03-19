@@ -1,0 +1,33 @@
+body{
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+.div1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+.destinatario{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+    width: 50px;
+  }
+  .minibox {
+    width: 50px;
+  }
+  .width {
+    width: 100%;
+  }
+  .max {
+    max-width: 100%;
+  }
+

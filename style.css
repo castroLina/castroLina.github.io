@@ -1,33 +1,102 @@
-body{
+    body{
     margin-top: 50px;
     margin-right: 200px;
     margin-left: 200px;
-}
-
-h1{
-    text-align: center;
-    color: blue;
-}
-
-.div1{
+    }
+   .div1{
     font-family: 'Courier New', Courier, monospace;
     text-align: right;
-}
-
-.destinatario{
+     }
+   .destinatario{
     font-family: 'Courier New', Courier, monospace;
-}
+     }
+    h1{
+    text-align: center;
+    color: blue;
+      }
+      .contenedor{
+        width: 100%;
+        height: 80vh;
+        background-color: rgb(166, 190, 197);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }    
+    .text{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-self: center;
+      align-items: center;
+    }
+    .imagen{
+      display: block;
+      margin: 0 auto;
+      width: 700px;
+    }
+    .link{
+      color: black;
+      padding: 70px 30px;
+      text-decoration:none;
+      font-size: 24px;
+    }
+    .link:hover{
+        color: #f64b3c;
+        padding: 70px 30px;
+    }
+    .formulario{
+      position: absolute;
+      bottom: 10px;
+      background-color: #f6eedf;
+      width: 30%;
+      padding: 15px 15px;
+      border-radius: 30px;
+    }
+  .formulario-titulo{
+      font-size: 25px;
+      margin: 25px auto;
+      text-align: center;
+    }
+  .form{
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    }
+   .item-3{
+       width: 98%;
+       height: 45px;
+       margin: 7px auto;
+       grid-column: 1/3; 
+       outline: none;
+   }
+   .textarea{
+       width: 98%;
+       height: 100px;
+       margin: 7px auto;
+       grid-column: 1/3; 
+       outline: none;
+       resize: none;
+   }
+   .submit{
+       width: 30%;
+       height: 45px;
+       margin: 7px auto;
+       grid-column: 1/3;
+   }
+   .mapa{
+    width: 50%;
+    height: 78vh;
+  }
+  iframe{
+      width: 80%;
+      height: 68vh;
+  }
+  
+   
 
-.img {
-    width: 50px;
-  }
-  .minibox {
-    width: 50px;
-  }
-  .width {
-    width: 100%;
-  }
-  .max {
-    max-width: 100%;
-  }
+
+
 
